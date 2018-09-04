@@ -32,7 +32,7 @@ git（github）では、
 ### pull-requestの作り方
 ```
 # 最新のコードと開発マシンのコードを同期する
-git branch master
+git checkout master
 git pull
 
 # 新しいブランチをつくる
