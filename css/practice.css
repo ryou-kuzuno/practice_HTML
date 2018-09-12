@@ -1,0 +1,17 @@
+.top {
+    height: 550px;
+    background-color: rgb(201, 195, 236);
+}
+
+
+.top img{
+    height: 550px;
+    width: 60%;
+    
+    /* border: 1px solid black; */
+    
+}
+
+.top h1 {
+    top: 0;
+}
