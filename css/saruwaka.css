@@ -32,6 +32,7 @@
     transform: translateY(6px);
     transform: translateY(6px);/*下に動く*/
     border-bottom: none;/*線を消す*/
+    opacity: 0.6;
 }
 
 
