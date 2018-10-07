@@ -5,7 +5,7 @@
     display: inline-block;
     margin-bottom: 5px;
     border: 1px solid black;
-    width: 200px ;
+    width: 500px ;
     
 }
 .card-content {
@@ -15,6 +15,13 @@
     width: 90%;
     margin: 10px  auto 5px;
     
+}
+.card-content.inline-element{
+    display: inline-block;
+    width: 40%;
+}
+.shadow-wrap{
+    text-align: right;
 }
 
 .card-content img {

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/rwby.css">
+    <title>サルワカ模写</title>
+</head>
+<body>
+<!-- ハンバーガーメニュー -->
+    <header>
+        <div id="nav-drawer">
+            <!-- nav-input 。常に表示。ここにチェックが入ったかどうかで、CSSを切り替える? -->
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <!--label  メニューバーとして表示される。inputにチェックを入れる。 -->
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <!--inputのチェックが外れる背景として機能。右側の薄い黒色の背景。  -->
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <!--  サイト内のリンクなり、検索ボックスなり、自由-->
+            <div id="nav-content">はんばぁーーーぐ！！</div>
+        </div>
+      </header>
+<!-- ハンバーガーメニュー -->
+
+<!-- 表示・非表示を切り替えるボタンサンプル -->
+<div class="hidden_box">
+        <label for="label1">切り替えボタン</label>
+        <input type="checkbox" id="label1"/>
+        <div class="hidden_show">
+          <!--非表示ここから-->     
+              <p>ぶんきゅーーさんねん！</p>
+          <!--ここまで-->
+        </div>
+    </div>
+    <!--1ページに複数のボタンを使うときにはidを変える -->
+    <div class="hidden_box">
+            <label for="label2">切り替えボタン</label><!--forの名前を変える-->
+            <input type="checkbox" id="label2"/><!--idの名前を変える-->
+            <div class="hidden_show">
+              <!--非表示ここから-->     
+                  <p>あけましておめでとう</p>
+              <!--ここまで-->
+            </div>
+        </div>
+<!-- 表示・非表示を切り替えるボタンサンプル -->
+</body>
+</html>
